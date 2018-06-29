@@ -83,6 +83,18 @@ html {
     }
   }
 
+  .page-news {
+    .c-media-block__inine .c-media-block__image {
+      width: calc(100vw / 7 * 4 - 0.01px);
+    }
+  }
+
+  .c-section {
+    @include media('>xxlarge') {
+      margin-left: calc(100vw / 7 * 2 - 0.01px);
+    }
+  }
+
   .l-standard-break {
     width: 100vw;
 
