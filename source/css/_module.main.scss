@@ -126,7 +126,7 @@ html {
 }
 
 .body.hide-sabbath {
-  &--all {
+  &--all, & {
     @include hide-sabbath;
   }
   &--until-small {
